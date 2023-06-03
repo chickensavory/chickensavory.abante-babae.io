@@ -65,7 +65,7 @@ const Dashboard = () => {
                    <div className="w-10/12">
                        <div className="flex flex-row">
                            <div className="bg-no-repeat bg-red-200 border border-red-300 rounded-xl w-7/12 mr-2 p-6 bg-[url('https://themighty.com/wp-content/uploads/2018/01/GettyImages-665831012-1280x640.jpg')">
-                               <p className="text-5xl text-indigo-900"><strong className={"font-bold"}>What's New</strong></p>
+                               <p className="text-5xl text-indigo-900"><strong className={"font-bold"}>What&apos;s New</strong></p>
                                <span
                                    className="bg-red-300 text-s text-white inline-block rounded-full mt-12 px-8 py-2">
                                    <li>Lorem Ipsum Lorem Ipsum</li>

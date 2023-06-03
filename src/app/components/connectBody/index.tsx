@@ -29,7 +29,7 @@ const ConnectBody: FC<Props> = ({ label, category, user, ...props }) => {
                     <span>{counter}</span>
                 </div>
                 <div className="p-3">
-                    <label href="#" className="hover:bg-gray-300">{label}</label>
+                    <label className="hover:bg-gray-300">{label}</label>
                     <div className="text-xs">
                         <p>
                             <a href="#" className="hover:underline">{ user } </a>

@@ -1,24 +1,25 @@
 import { FC, PropsWithChildren } from "react";
 
-type BodyColor = "white"
+type BodyColor = "white"| "red";
 interface Props extends PropsWithChildren {
     isPadded?: boolean;
     isFlexed?: boolean;
     bodyColor?: BodyColor;
 }
 
-const BodyColorStyle = {
-   "white": "bg-white",
+const BodyColorStyle: { white: string, "red": string } = {
+    white: "bg-white",
     "red": "bg-red-200",
-    "orange": "bg-orange-100",
+
 };
 
-const DashboardBody: FC<Props> = ({
+const DashBody: FC<Props> = ({
                              bodyColor = "white",
                              isFlexed = false,
                              isPadded = true,
                              children,
                          }) => {
+
     return (
         <div
             className={`w-full  ${isPadded ? "p-[24px]" : ""} ${
@@ -30,4 +31,4 @@ const DashboardBody: FC<Props> = ({
     );
 };
 
-export default DashboardBody;
+export default DashBody;
