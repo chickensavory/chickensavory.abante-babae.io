@@ -25,9 +25,9 @@ const Login = () => {
                         </button>
                     </div>
                     <div className={ "inherit flex flex-col items-center pt-16"}>
-                        <h1 className="text-5xl uppercase font-bold">
-                            The Mom Project
-                        </h1>
+                        <div className="font-bold text-blue-900 text-2xl cursor-pointer">The Project<span
+                            className="text-pink-600 uppercase cursor-pointer">mom</span>
+                        </div>
                         <h3 className={ "text-[24px] text-center font-children pt-5" }>Welcome back mama!</h3>
                     </div>
                     <div className={ "inherit flex flex-col items-center pb-10" }>
